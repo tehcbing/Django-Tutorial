@@ -20,3 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("main.urls")), # if we don't type anything, we will be directed to the main.urls files
 ] 
+
+# /home/start

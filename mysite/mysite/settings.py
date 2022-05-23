@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main.apps.MainConfig', # we need to tell Django that there is dependencies that need to be set up
 ]
 
 MIDDLEWARE = [
