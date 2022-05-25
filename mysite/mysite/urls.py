@@ -20,6 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("register/", v.register, name="register"),
     path('', include("main.urls")), # if we don't type anything, we will be directed to the main.urls files
+    path('', include("django.contrib.auth.urls")),
 ] 
 
 # /home/start
+
